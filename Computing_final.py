@@ -102,9 +102,10 @@ for n in range(1, nt_impl - 1):
     u_int_next = spla.spsolve(A_matrix, b)
     u_impl[n+1, 1:-1, 1:-1] = u_int_next.reshape((nx_i, ny_i))
 
-# In this section I am showing the results
 
-# Static Visualization for Explicit and Implicit Methods
+#########################################################################
+
+# In this section I am showing the results
 
 # Define parameters
 time_points = [0, 0.5, 1, 1.5, 2.0, 2.5, 3.0]
