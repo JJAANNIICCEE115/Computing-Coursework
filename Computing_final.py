@@ -30,8 +30,6 @@ x = np.linspace(0, L, nx)
 y = np.linspace(0, L, ny) # Gives equally spaced grid points
 X, Y = np.meshgrid(x, y, indexing='ij') # Creates 2D coodrinate matrices 
 
-# In this section I am defining arrays I would need (if needed)
-# (Arrays for the numerical solution will be allocated below in each method)
 
 # In this section I am setting the boundary conditions/initial values
 
